@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h2>Posts</h2>
+    <h2 class="text-center">Posts</h2>
     <Loader v-if="isLoading" />
     <div v-else>
       <ul v-if="posts.length">

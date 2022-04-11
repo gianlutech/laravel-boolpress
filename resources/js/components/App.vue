@@ -2,8 +2,8 @@
   <div>
     <Header :title="title" />
     <main>
-      <div class="container">
-        <PostsList />
+      <div class="container my-5">
+        <router-view></router-view>
       </div>
     </main>
   </div>
